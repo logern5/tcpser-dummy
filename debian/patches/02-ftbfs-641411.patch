@@ -1,0 +1,13 @@
+diff --git a/Makefile b/Makefile
+index 4a6a359..beeacf7 100644
+--- a/Makefile
++++ b/Makefile
+@@ -16,7 +16,7 @@ $(SRCS):
+ 	$(CC) $(CFLAGS) -c $*.c
+ 
+ tcpser: $(OBJS)
+-	$(CC) $(LDFLAGS) -o $@ $(OBJS)
++	$(CC) $(OBJS) $(LDFLAGS) -o $@
+ 
+ depend: $(SRCS)
+ 	$(DEPEND) $(SRCS)

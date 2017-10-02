@@ -1,0 +1,21 @@
+This package was debianized by Peter Collingbourne <pcc03@doc.ic.ac.uk> on
+Tue,  4 Jul 2006 18:17:01 -0700.
+
+It was downloaded from http://www.jbrain.com/pub/linux/serial
+
+Upstream Author: Jim Brain <brain@jbrain.com>
+
+Copyright: Copyright (C) 2008 Jim Brain
+
+License:
+
+TCPSER is distributed under the GPL 2.0 or later
+
+On Debian GNU/Linux systems, the text of the GPL can be found in
+/usr/share/common-licenses/GPL-2.
+
+
+The Debian packaging is Copyright (C) 2008, Peter Collingbourne
+<pcc03@doc.ic.ac.uk> and is licensed under the GPL, see
+`/usr/share/common-licenses/GPL-2'.
+

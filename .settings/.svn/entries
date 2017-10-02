@@ -1,0 +1,40 @@
+8
+
+dir
+5
+http://www.jimbrain.com/svn/tcpser/trunk/.settings
+http://www.jimbrain.com/svn/tcpser
+
+
+
+2007-02-06T06:43:32.577387Z
+4
+brain
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8602611e-c928-0410-ae49-afcc62ab246b
+
+org.eclipse.cdt.core.prefs
+file
+
+
+
+
+2007-02-06T06:50:41.680046Z
+3f613fdb51fe217b12933b9b3b900bc7
+2007-02-06T06:43:32.577387Z
+4
+brain
+

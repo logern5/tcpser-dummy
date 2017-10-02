@@ -1,0 +1,20 @@
+Source: tcpser
+Section: net
+Priority: optional
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper (>= 9)
+Homepage: http://www.jbrain.com/pub/linux/serial/
+Standards-Version: 3.9.4
+Vcs-Browser: http://git.debian.org/?p=collab-maint/tcpser.git
+Vcs-Git: git://git.debian.org/git/collab-maint/tcpser.git
+
+Package: tcpser
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: emulate a Hayes compatible modem
+ TCPSER turns a PC serial port into an emulated Hayes compatible modem that
+ uses TCP/IP for incoming and outgoing connections. It can be used to allow
+ older applications and systems designed for modem use to operate on the
+ Internet. TCPSER supports all standard Hayes commands, and understands
+ extended and vendor proprietary commands (though it does not implement
+ many of them). TCPSER can be used for both inbound and outbound connections.

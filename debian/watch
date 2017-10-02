@@ -1,0 +1,4 @@
+version=3
+opts=uversionmangle=s/(\d)[_\.\-\+]?((RC|rc|pre|dev|beta|alpha|b|a)[\-\.]?\d*)$/$1~$2/,dversionmangle=s/(\d)(rc\d*)$/$1~$2/ \
+http://www.jbrain.com/pub/linux/serial/tcpser-(\d.*)\.(?:tgz|tbz2|txz|tar\.(?:gz|bz2|xz))
+# Bart Martens <bartm@debian.org>  Sun, 23 Dec 2012 13:33:34 +0000

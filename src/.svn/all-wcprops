@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/tcpser/!svn/ver/4/trunk/src
+END
+tcpser.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/tcpser/!svn/ver/20/trunk/src/tcpser.c
+END
+bridge.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/tcpser/!svn/ver/10/trunk/src/bridge.h
+END
+init.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/tcpser/!svn/ver/24/trunk/src/init.c
+END
+getcmd.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/tcpser/!svn/ver/22/trunk/src/getcmd.c
+END
+tcpser.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/tcpser/!svn/ver/6/trunk/src/tcpser.h
+END
+ip.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/tcpser/!svn/ver/12/trunk/src/ip.c
+END
+init.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/tcpser/!svn/ver/10/trunk/src/init.h
+END
+getcmd.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/tcpser/!svn/ver/10/trunk/src/getcmd.h
+END
+modem_core.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/tcpser/!svn/ver/20/trunk/src/modem_core.c
+END
+util.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/tcpser/!svn/ver/10/trunk/src/util.c
+END
+ip.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/tcpser/!svn/ver/10/trunk/src/ip.h
+END
+modem_core.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/tcpser/!svn/ver/24/trunk/src/modem_core.h
+END
+serial.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/tcpser/!svn/ver/22/trunk/src/serial.c
+END
+util.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/tcpser/!svn/ver/10/trunk/src/util.h
+END
+phone_book.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/tcpser/!svn/ver/22/trunk/src/phone_book.c
+END
+tcpmdm.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/tcpser/!svn/ver/10/trunk/src/tcpmdm.c
+END
+serial.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/tcpser/!svn/ver/10/trunk/src/serial.h
+END
+debug.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/tcpser/!svn/ver/22/trunk/src/debug.c
+END
+phone_book.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/tcpser/!svn/ver/10/trunk/src/phone_book.h
+END
+tcpmdm.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/tcpser/!svn/ver/10/trunk/src/tcpmdm.h
+END
+dce.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/tcpser/!svn/ver/24/trunk/src/dce.c
+END
+debug.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/tcpser/!svn/ver/10/trunk/src/debug.h
+END
+ip232.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/tcpser/!svn/ver/24/trunk/src/ip232.c
+END
+dce.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/tcpser/!svn/ver/10/trunk/src/dce.h
+END
+ip232.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/tcpser/!svn/ver/24/trunk/src/ip232.h
+END
+shared.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/tcpser/!svn/ver/14/trunk/src/shared.c
+END
+nvt.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/tcpser/!svn/ver/24/trunk/src/nvt.c
+END
+shared.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/tcpser/!svn/ver/10/trunk/src/shared.h
+END
+nvt.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/tcpser/!svn/ver/24/trunk/src/nvt.h
+END
+line.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/tcpser/!svn/ver/24/trunk/src/line.c
+END
+line.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/tcpser/!svn/ver/10/trunk/src/line.h
+END
+bridge.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/tcpser/!svn/ver/24/trunk/src/bridge.c
+END

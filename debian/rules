@@ -1,0 +1,60 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+LDFLAGS  = -lpthread  # From original Makefile
+LDFLAGS += $(shell dpkg-buildflags --get LDFLAGS)
+LDFLAGS += -Wl,--as-needed
+
+CPPFLAGS = $(shell dpkg-buildflags --get CPPFLAGS)
+CFLAGS   = $(shell dpkg-buildflags --get CFLAGS)
+CFLAGS  += -Wall -pedantic -g $(CPPFLAGS)
+
+build-arch: build
+build-indep: build
+
+build: build-stamp
+
+build-stamp:
+	dh_testdir
+	$(MAKE) CFLAGS="$(CFLAGS)" LDFLAGS="$(LDFLAGS)"
+	touch $@
+
+clean:
+	dh_testdir
+	dh_testroot
+	rm -f build-stamp
+	$(MAKE) clean
+	dh_clean 
+
+install: build
+	dh_testdir
+	dh_testroot
+	dh_prep 
+	dh_installdirs
+
+
+binary-indep: build install
+
+binary-arch: build install
+	dh_testdir
+	dh_testroot
+	dh_installchangelogs CHANGES
+	dh_installdocs
+	dh_installman
+	dh_install
+	dh_strip
+	dh_compress
+	dh_fixperms
+	dh_shlibdeps
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+binary: binary-indep binary-arch
+.PHONY: build clean binary-indep binary-arch binary install

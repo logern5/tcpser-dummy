@@ -1,0 +1,15 @@
+From: <pcc03@doc.ic.ac.uk>
+Subject: src/init.c: Fixed typo in usage summary
+
+diff -urNad tcpser-1.0rc12~/src/init.c tcpser-1.0rc12/src/init.c
+--- tcpser-1.0rc12~/src/init.c	2008-02-04 13:48:58.000000000 +0000
++++ tcpser-1.0rc12/src/init.c	2008-02-04 13:59:00.000000000 +0000
+@@ -12,7 +12,7 @@
+   fprintf(stderr, "       's' = modem input\n");
+   fprintf(stderr, "       'S' = modem output\n");
+   fprintf(stderr, "       'i' = IP input\n");
+-  fprintf(stderr, "       'I' = IP input\n");
++  fprintf(stderr, "       'I' = IP output\n");
+   fprintf(stderr, "  -l   0 (NONE), 1 (FATAL) - 7 (DEBUG_X) (defaults to 0)\n");
+   fprintf(stderr, "  -L   log file (defaults to stderr)\n");
+   fprintf(stderr, "\n");

@@ -1,0 +1,45 @@
+tcpser (1.0rc12-2) unstable; urgency=low
+
+  [ Jari Aalto ]
+  * QA upload.
+  * Remove deprecated dpatch and upgrade to packaging format "3.0 quilt"
+    (Closes: #664359).
+  * Update to Standards-Version to 3.9.4, debhelper to 9, ${misc:Depends}.
+  * Add build-arch and build-indep targets; use dh_prep in rules file.
+  * Fix copyright-with-old-dh-make-debian-copyright (Lintian).
+  * Move Alioth repository from Bzr to Git (git-buildpackage).
+  * Use hardened build flags
+    http://wiki.debian.org/ReleaseGoals/SecurityHardeningBuildFlags
+
+  [ tony mancill ]
+  * Update d/watch file.  Thank you to Bart Martens.
+  * Add patch to address FTBFS with "ld --as-needed". (Closes: #641411)
+    - Thank you to Matthias Klose.
+
+ -- tony mancill <tmancill@debian.org>  Fri, 03 May 2013 21:27:26 -0700
+
+tcpser (1.0rc12-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/tcpser.1: fixed typos, added -v option, added square
+    brackets where necessary
+  * src/init.c: reverted "Fixed typo in usage summary"
+  * debian/patches/01-usage-typo.dpatch: moved patch to dpatch
+  * Makefile: reverted "Added install rule to makefile"
+  * debian/rules, debian/install: moved install rule here
+  * debian/control: updated Standards-Version, added dpatch to
+    Build-Depends, added Vcs-Bzr field, added Homepage field
+  * debian/watch: added
+  * debian/copyright: updated year to 2008
+
+ -- Peter Collingbourne <pcc03@doc.ic.ac.uk>  Mon,  4 Feb 2008 12:51:33 +0000
+
+tcpser (1.0rc10-1) unstable; urgency=low
+
+  * Initial release (Closes: #376993)
+  * Added install rule to makefile
+  * Wrote man page
+  * Fixed typo in usage summary
+
+ -- Peter Collingbourne <pcc03@doc.ic.ac.uk>  Tue,  4 Jul 2006 18:17:01 -0700
+
