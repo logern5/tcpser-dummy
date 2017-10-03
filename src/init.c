@@ -22,7 +22,7 @@ void print_help(unsigned char* name) {
   fprintf(stderr, "  -d   serial device (e.g. /dev/ttyS0). Cannot be used with -v\n");
   fprintf(stderr, "  -v   tcp port for VICE RS232 (e.g. 25232). Cannot be used with -d\n");
   fprintf(stderr, "  -s   serial port speed (defaults to 38400)\n");
-  fprintf(stderr, "  -S   speed modem will report (defaults to -s value). Setting to 555 enables dummy mode\n");
+  fprintf(stderr, "  -S   speed modem will report (defaults to -s value). Setting to 555 or speed*23 enables dummy mode\n");
   fprintf(stderr, "  -I   invert DCD pin\n");
   fprintf(stderr, "  -n   add phone entry (number=replacement)\n");
   fprintf(stderr, "  -a   filename to send to local side upon answer\n");
@@ -35,6 +35,7 @@ void print_help(unsigned char* name) {
   fprintf(stderr, "  -i   modem init string (defaults to '', leave off 'at' prefix when specifying)\n");
   fprintf(stderr, "  -D   direct connection (follow with hostname:port for caller, : for receiver)\n");
   fprintf(stderr, "  -S 555 dummy mode, exits after sending CONNECT, useful for connecting Windows to serial internet\n");
+  fprintf(stderr, "  -S speed*23 dummy mode, exits after sending CONNECT SPEED, useful for connecting Windows to serial internet\n");
   exit(1);
 }
 
