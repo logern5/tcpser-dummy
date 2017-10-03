@@ -238,9 +238,12 @@ int mdm_print_speed(modem_config *cfg) {
     mdm_send_response(get_connect_response(speed,cfg->response_code_level),cfg);
   }
   else{
+    printf("SPEED is %d\n",speed);
+    printf("SPEED over 23 is %d\n",speed/23);
+    printf("SPEED
     if (!(speed%23)){
       mdm_send_response(get_connect_response((speed/23),cfg->response_code_level),cfg);
-      printf("Dummy mode (23 mode) completed, exiting...\n);
+      printf("Dummy mode (23 mode) completed, exiting...\n");
       exit(0);
     }
     else{
