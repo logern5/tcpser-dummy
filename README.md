@@ -1,5 +1,9 @@
 # tcpser-dummy
 tcpser with dummy functionality
+
+The Windows 64 and 32 bit prebuilt binaries are in tcpser64.zip and tcpser32.zip respectively
+
+Read the other README file for more info.
 ```
 Usage: ./tcpser <parameters>
   -p   port to listen on (defaults to 6400)
